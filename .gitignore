@@ -3,3 +3,4 @@
 *.fastq
 *.pdf
 *.xlsx
+*.DS_STORE
