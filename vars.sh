@@ -2,7 +2,9 @@
 # to try and type all this crap out
 
 export data_dir="data"
-export raws_dir=$data_dir/00-raws
-export trim_dir=$data_dir/01-cleaned\ and\ trimmed
+export reads_dir=$data_dir/00-reads
+# export trim_dir=$data_dir/01-cleaned\ and\ trimmed
 export scripts_dir="scripts"
 export reports_dir="reports"
+
+alias mash="tools/mash-OSX64-v2.3/mash"
