@@ -1,0 +1,14 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NC_004631.1:3217050-3217265|+ -             72 92685at91347         -             59   8.9e-41  135.8   7.6   1   1   2.3e-44   1.1e-40  135.5   7.6     1    59     1    60     1    60 0.99 NC_004631.1_3119 # 3217050 # 3217265 # 1 # ID=1_3119;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.519
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/92685at91347.hmm
+# Target file:     reports/busco-results/GCF_000007545.1_ASM754v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout reports/busco-results/GCF_000007545.1_ASM754v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/92685at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/92685at91347.hmm reports/busco-results/GCF_000007545.1_ASM754v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Sat Feb 21 23:14:42 2026
+# [ok]

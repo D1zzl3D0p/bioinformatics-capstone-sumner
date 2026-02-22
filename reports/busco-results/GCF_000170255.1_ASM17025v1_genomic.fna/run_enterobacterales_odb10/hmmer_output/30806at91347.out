@@ -1,0 +1,18 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_ABAO01000031.1:37306-38655|+   -            450 30806at91347         -            370    5e-213  704.9   5.1   1   1    3e-213  4.7e-210  695.1   5.1     1   367     1   426     1   429 0.94 NZ_ABAO01000031.1_35 # 37306 # 38655 # 1 # ID=83_35;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.548
+NZ_ABAO01000001.3:123337-126564|+ -           1076 30806at91347         -            370   1.5e-11   41.9   0.1   1   2    0.0032       5.1    4.0   0.0   122   194   154   231   116   341 0.55 NZ_ABAO01000001.3_112 # 123337 # 126564 # 1 # ID=113_112;partial=00;start_type=ATG;rbs_motif=AGGAG/GGAGG;rbs_spacer=11-12bp;gc_cont=0.591
+NZ_ABAO01000001.3:123337-126564|+ -           1076 30806at91347         -            370   1.5e-11   41.9   0.1   2   2   1.1e-11   1.7e-08   31.9   0.1   118   278   697   880   667   884 0.74 NZ_ABAO01000001.3_112 # 123337 # 126564 # 1 # ID=113_112;partial=00;start_type=ATG;rbs_motif=AGGAG/GGAGG;rbs_spacer=11-12bp;gc_cont=0.591
+NZ_ABAO01000001.3:198901-199821|+ -            307 30806at91347         -            370     0.021   11.8   0.0   1   2   4.9e-05     0.076   10.0   0.0   126   177   133   187   124   196 0.77 NZ_ABAO01000001.3_174 # 198901 # 199821 # 1 # ID=113_174;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.542
+NZ_ABAO01000001.3:198901-199821|+ -            307 30806at91347         -            370     0.021   11.8   0.0   2   2      0.13     2e+02   -1.3   0.0   217   243   247   274   226   288 0.74 NZ_ABAO01000001.3_174 # 198901 # 199821 # 1 # ID=113_174;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.542
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/30806at91347.hmm
+# Target file:     reports/busco-results/GCF_000170255.1_ASM17025v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout reports/busco-results/GCF_000170255.1_ASM17025v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/30806at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/30806at91347.hmm reports/busco-results/GCF_000170255.1_ASM17025v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Sat Feb 21 23:25:10 2026
+# [ok]

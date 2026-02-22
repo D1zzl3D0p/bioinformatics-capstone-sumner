@@ -1,0 +1,15 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NC_016856.1:3387474-3388715|+ -            414 37096at91347         -            357  1.1e-171  568.6   0.0   1   1  1.6e-174  3.7e-171  566.9   0.0     1   357     1   404     1   404 0.91 NC_016856.1_3195 # 3387474 # 3388715 # 1 # ID=1_3195;partial=00;start_type=GTG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.586
+NC_016856.1:214578-215996|-   -            473 37096at91347         -            357   1.4e-20   71.5   0.0   1   1   1.3e-23   2.9e-20   70.5   0.0     3   241    69   327    67   385 0.78 NC_016856.1_183 # 214578 # 215996 # -1 # ID=1_183;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.562
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/37096at91347.hmm
+# Target file:     reports/busco-results/GCF_000022165.1_ASM2216v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout reports/busco-results/GCF_000022165.1_ASM2216v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/37096at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/37096at91347.hmm reports/busco-results/GCF_000022165.1_ASM2216v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Sat Feb 21 23:24:25 2026
+# [ok]

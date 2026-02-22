@@ -1,0 +1,21 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_ABAO01000039.3:38116-39405|-   -            430 23619at91347         -            365  2.3e-200  663.2   0.5   1   2  2.8e-101   2.2e-98  327.6   0.1     1   173     1   179     1   183 0.95 NZ_ABAO01000039.3_39 # 38116 # 39405 # -1 # ID=75_39;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.587
+NZ_ABAO01000039.3:38116-39405|-   -            430 23619at91347         -            365  2.3e-200  663.2   0.5   2   2  3.9e-103  3.1e-100  333.7   0.1   167   365   197   421   193   421 0.94 NZ_ABAO01000039.3_39 # 38116 # 39405 # -1 # ID=75_39;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.587
+NZ_ABAO01000002.1:75998-77377|-   -            460 23619at91347         -            365   5.8e-45  151.8   0.0   1   1   4.2e-47   3.3e-44  149.4   0.0    38   299    79   356    67   367 0.78 NZ_ABAO01000002.1_73 # 75998 # 77377 # -1 # ID=112_73;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.543
+NZ_ABAO01000010.1:30973-32199|-   -            409 23619at91347         -            365   3.1e-36  123.1   0.0   1   1   6.6e-39   5.1e-36  122.4   0.0    32   298    30   304    12   320 0.81 NZ_ABAO01000010.1_33 # 30973 # 32199 # -1 # ID=104_33;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.562
+NZ_ABAO01000042.1:16187-17404|-   -            406 23619at91347         -            365   5.2e-36  122.4   0.0   1   1   9.9e-39   7.7e-36  121.8   0.0    38   303    39   313    17   329 0.78 NZ_ABAO01000042.1_21 # 16187 # 17404 # -1 # ID=72_21;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.557
+NZ_ABAO01000014.1:74505-75788|+   -            428 23619at91347         -            365   9.8e-33  111.6   0.5   1   2   2.3e-10   1.8e-07   28.5   0.0    56   149    56   149    22   171 0.85 NZ_ABAO01000014.1_59 # 74505 # 75788 # 1 # ID=100_59;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.579
+NZ_ABAO01000014.1:74505-75788|+   -            428 23619at91347         -            365   9.8e-33  111.6   0.5   2   2   1.8e-26   1.4e-23   81.5   0.2   170   306   195   328   175   341 0.89 NZ_ABAO01000014.1_59 # 74505 # 75788 # 1 # ID=100_59;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.579
+NZ_ABAO01000001.3:283493-284773|- -            427 23619at91347         -            365   2.3e-21   74.2   0.0   1   1     7e-24   5.5e-21   73.0   0.0    32   296    39   318    32   332 0.77 NZ_ABAO01000001.3_248 # 283493 # 284773 # -1 # ID=113_248;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.594
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/23619at91347.hmm
+# Target file:     reports/busco-results/GCF_000170255.1_ASM17025v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout reports/busco-results/GCF_000170255.1_ASM17025v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/23619at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/23619at91347.hmm reports/busco-results/GCF_000170255.1_ASM17025v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Sat Feb 21 23:25:09 2026
+# [ok]

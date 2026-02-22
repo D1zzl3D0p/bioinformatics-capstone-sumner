@@ -1,0 +1,14 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_ABAO01000041.1:41067-41279|- -             71 80958at91347         -            116   4.2e-42  141.4   2.0   1   1   9.7e-46   4.5e-42  141.3   2.0    47   116     1    70     1    70 0.99 NZ_ABAO01000041.1_43 # 41067 # 41279 # -1 # ID=73_43;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.545
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/80958at91347.hmm
+# Target file:     reports/busco-results/GCF_000170255.1_ASM17025v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout reports/busco-results/GCF_000170255.1_ASM17025v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/80958at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/80958at91347.hmm reports/busco-results/GCF_000170255.1_ASM17025v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Sat Feb 21 23:25:12 2026
+# [ok]

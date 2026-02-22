@@ -1,0 +1,21 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_ABEI01000004.1:106778-108067|- -            430 23619at91347         -            365  2.5e-200  662.9   0.6   1   2  4.2e-101     3e-98  327.1   0.1     1   173     1   179     1   183 0.95 NZ_ABEI01000004.1_99 # 106778 # 108067 # -1 # ID=50_99;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.583
+NZ_ABEI01000004.1:106778-108067|- -            430 23619at91347         -            365  2.5e-200  662.9   0.6   2   2    3e-103  2.2e-100  334.1   0.1   167   365   197   421   193   421 0.94 NZ_ABEI01000004.1_99 # 106778 # 108067 # -1 # ID=50_99;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.583
+NZ_ABEI01000008.1:111375-112754|+ -            460 23619at91347         -            365   5.5e-45  151.8   0.0   1   1   4.2e-47   3.1e-44  149.4   0.0    38   299    79   356    67   367 0.78 NZ_ABEI01000008.1_106 # 111375 # 112754 # 1 # ID=46_106;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.543
+NZ_ABEI01000012.1:16242-17459|-   -            406 23619at91347         -            365   4.9e-36  122.4   0.0   1   1   9.9e-39   7.2e-36  121.8   0.0    38   303    39   313    17   329 0.78 NZ_ABEI01000012.1_22 # 16242 # 17459 # -1 # ID=42_22;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.562
+NZ_ABEI01000015.1:111565-112791|+ -            409 23619at91347         -            365   5.1e-36  122.3   0.0   1   1   1.2e-38   8.6e-36  121.6   0.0    32   298    30   304    13   320 0.81 NZ_ABEI01000015.1_112 # 111565 # 112791 # 1 # ID=39_112;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.562
+NZ_ABEI01000020.1:43379-44662|+   -            428 23619at91347         -            365   9.1e-33  111.6   0.5   1   2   2.3e-10   1.7e-07   28.5   0.0    56   149    56   149    23   171 0.85 NZ_ABEI01000020.1_37 # 43379 # 44662 # 1 # ID=34_37;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.579
+NZ_ABEI01000020.1:43379-44662|+   -            428 23619at91347         -            365   9.1e-33  111.6   0.5   2   2   1.8e-26   1.3e-23   81.5   0.2   170   306   195   328   175   341 0.89 NZ_ABEI01000020.1_37 # 43379 # 44662 # 1 # ID=34_37;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.579
+NZ_ABEI01000003.1:292054-293334|- -            427 23619at91347         -            365   2.5e-21   74.0   0.0   1   1   7.9e-24   5.8e-21   72.8   0.0    32   297    39   319    31   343 0.77 NZ_ABEI01000003.1_258 # 292054 # 293334 # -1 # ID=51_258;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.588
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/23619at91347.hmm
+# Target file:     reports/busco-results/GCF_000171275.1_ASM17127v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout reports/busco-results/GCF_000171275.1_ASM17127v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/23619at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/23619at91347.hmm reports/busco-results/GCF_000171275.1_ASM17127v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Sat Feb 21 23:25:56 2026
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NC_016856.1:102136-102984|-   -            283 71844at91347         -            231  2.4e-112  372.3   0.0   1   1  1.8e-115  2.8e-112  372.1   0.0     1   231     1   262     1   262 0.92 NC_016856.1_87 # 102136 # 102984 # -1 # ID=1_87;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.562
+NC_016856.1:1962094-1962744|- -            217 71844at91347         -            231   5.9e-13   47.1   0.0   1   2     1e-14   1.5e-11   42.4   0.0     4    67    20    87    18    99 0.87 NC_016856.1_1855 # 1962094 # 1962744 # -1 # ID=1_1855;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.527
+NC_016856.1:1962094-1962744|- -            217 71844at91347         -            231   5.9e-13   47.1   0.0   2   2     0.017        26    2.4   0.0   207   226   195   214   180   216 0.76 NC_016856.1_1855 # 1962094 # 1962744 # -1 # ID=1_1855;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.527
+NC_016856.1:3069008-3069664|+ -            219 71844at91347         -            231   5.2e-12   44.0   0.1   1   2   9.5e-15   1.5e-11   42.5   0.0     4   113    18   141    16   149 0.72 NC_016856.1_2900 # 3069008 # 3069664 # 1 # ID=1_2900;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.416
+NC_016856.1:3069008-3069664|+ -            219 71844at91347         -            231   5.2e-12   44.0   0.1   2   2      0.94   1.5e+03   -3.3   0.0   208   225   198   215   182   217 0.53 NC_016856.1_2900 # 3069008 # 3069664 # 1 # ID=1_2900;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.416
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/71844at91347.hmm
+# Target file:     reports/busco-results/GCF_000022165.1_ASM2216v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout reports/busco-results/GCF_000022165.1_ASM2216v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/71844at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/71844at91347.hmm reports/busco-results/GCF_000022165.1_ASM2216v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Sat Feb 21 23:24:26 2026
+# [ok]

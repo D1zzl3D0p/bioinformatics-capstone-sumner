@@ -1,0 +1,21 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_ABEH02000009.1:76448-77833|+   -            462 19461at91347         -            392  4.2e-196  649.4   0.0   1   1  7.2e-199  7.6e-196  648.6   0.0     1   392     1   461     1   461 0.88 NZ_ABEH02000009.1_73 # 76448 # 77833 # 1 # ID=11_73;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.549
+NZ_ABEH02000005.1:177808-179841|+ -            678 19461at91347         -            392   7.8e-10   36.1   0.4   1   2   7.7e-06    0.0082   13.0   0.1    35   113    21   105     6   124 0.77 NZ_ABEH02000005.1_166 # 177808 # 179841 # 1 # ID=15_166;partial=00;start_type=ATG;rbs_motif=AGxAG;rbs_spacer=11-12bp;gc_cont=0.551
+NZ_ABEH02000005.1:177808-179841|+ -            678 19461at91347         -            392   7.8e-10   36.1   0.4   2   2   2.5e-08   2.6e-05   21.3   0.0   222   273   318   367   291   467 0.66 NZ_ABEH02000005.1_166 # 177808 # 179841 # 1 # ID=15_166;partial=00;start_type=ATG;rbs_motif=AGxAG;rbs_spacer=11-12bp;gc_cont=0.551
+NZ_ABEH02000009.1:178838-181420|- -            861 19461at91347         -            392   4.4e-09   33.7   0.1   1   2   0.00014      0.14    8.9   0.0    35    60    48    73    21    75 0.89 NZ_ABEH02000009.1_175 # 178838 # 181420 # -1 # ID=11_175;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.559
+NZ_ABEH02000009.1:178838-181420|- -            861 19461at91347         -            392   4.4e-09   33.7   0.1   2   2     1e-08   1.1e-05   22.5   0.0   231   332   612   715   604   757 0.76 NZ_ABEH02000009.1_175 # 178838 # 181420 # -1 # ID=11_175;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.559
+NZ_ABEH02000001.1:447215-450049|+ -            945 19461at91347         -            392   1.3e-07   28.8   0.3   1   3      0.25   2.7e+02   -1.8   0.0    36    63    65    92    63    94 0.91 NZ_ABEH02000001.1_407 # 447215 # 450049 # 1 # ID=19_407;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.547
+NZ_ABEH02000001.1:447215-450049|+ -            945 19461at91347         -            392   1.3e-07   28.8   0.3   2   3   4.5e-10   4.7e-07   27.0   0.0   222   296   588   662   553   745 0.82 NZ_ABEH02000001.1_407 # 447215 # 450049 # 1 # ID=19_407;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.547
+NZ_ABEH02000001.1:447215-450049|+ -            945 19461at91347         -            392   1.3e-07   28.8   0.3   3   3       1.1   1.2e+03   -3.9   0.1   304   348   819   863   813   871 0.81 NZ_ABEH02000001.1_407 # 447215 # 450049 # 1 # ID=19_407;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.547
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/19461at91347.hmm
+# Target file:     reports/busco-results/GCF_000171255.1_ASM17125v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout reports/busco-results/GCF_000171255.1_ASM17125v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/19461at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/19461at91347.hmm reports/busco-results/GCF_000171255.1_ASM17125v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Sat Feb 21 23:25:33 2026
+# [ok]

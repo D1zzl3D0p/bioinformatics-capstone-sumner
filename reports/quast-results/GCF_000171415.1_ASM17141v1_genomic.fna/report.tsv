@@ -1,0 +1,23 @@
+Assembly	GCF_000171415.1_ASM17141v1_genomic
+# contigs (>= 0 bp)	63
+# contigs (>= 1000 bp)	35
+# contigs (>= 5000 bp)	24
+# contigs (>= 10000 bp)	23
+# contigs (>= 25000 bp)	20
+# contigs (>= 50000 bp)	15
+Total length (>= 0 bp)	4948011
+Total length (>= 1000 bp)	4926459
+Total length (>= 5000 bp)	4910543
+Total length (>= 10000 bp)	4901456
+Total length (>= 25000 bp)	4848985
+Total length (>= 50000 bp)	4698417
+# contigs	63
+Largest contig	741259
+Total length	4948011
+GC (%)	52.10
+N50	484233
+N90	89958
+auN	450795.3
+L50	5
+L90	12
+# N's per 100 kbp	0.00

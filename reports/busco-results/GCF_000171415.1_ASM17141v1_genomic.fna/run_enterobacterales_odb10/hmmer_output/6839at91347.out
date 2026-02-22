@@ -1,0 +1,21 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_ABEW01000002.1:100076-102019|+ -            648 6839at91347          -            506  5.6e-295  976.6   6.7   1   1    5e-295  3.4e-292  967.4   6.7     1   506     6   598     6   598 0.93 NZ_ABEW01000002.1_98 # 100076 # 102019 # 1 # ID=62_98;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.558
+NZ_ABEW01000011.1:99098-100429|-  -            444 6839at91347          -            506     1e-08   32.2   0.1   1   2   2.2e-10   1.5e-07   28.4   0.0    99   189    16   110     2   117 0.78 NZ_ABEW01000011.1_101 # 99098 # 100429 # -1 # ID=53_101;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.533
+NZ_ABEW01000011.1:99098-100429|-  -            444 6839at91347          -            506     1e-08   32.2   0.1   2   2     0.028        19    1.7   0.0   192   218   251   275   180   312 0.80 NZ_ABEW01000011.1_101 # 99098 # 100429 # -1 # ID=53_101;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.533
+NZ_ABEW01000005.1:216050-217321|+ -            424 6839at91347          -            506   2.9e-08   30.8   0.0   1   1   6.4e-11   4.3e-08   30.2   0.0    89   206    66   193    53   214 0.73 NZ_ABEW01000005.1_203 # 216050 # 217321 # 1 # ID=59_203;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.528
+NZ_ABEW01000001.1:93471-94481|+   -            337 6839at91347          -            506   0.00061   16.5   0.0   1   1   1.5e-06   0.00098   15.8   0.0   124   164    48    88    28   104 0.90 NZ_ABEW01000001.1_99 # 93471 # 94481 # 1 # ID=63_99;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.577
+NZ_ABEW01000007.1:174102-175445|+ -            448 6839at91347          -            506    0.0011   15.6   0.0   1   1   2.3e-06    0.0016   15.1   0.0   134   203    53   119    44   197 0.83 NZ_ABEW01000007.1_163 # 174102 # 175445 # 1 # ID=57_163;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.565
+NZ_ABEW01000005.1:217507-219861|+ -            785 6839at91347          -            506      0.01   12.4   0.0   1   1   2.6e-05     0.017   11.7   0.0   112   153   333   371   305   384 0.83 NZ_ABEW01000005.1_204 # 217507 # 219861 # 1 # ID=59_204;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.540
+NZ_ABEW01000013.1:86366-87886|+   -            507 6839at91347          -            506     0.014   12.0   0.1   1   1   3.3e-05     0.022   11.3   0.1   133   153   212   232   190   235 0.89 NZ_ABEW01000013.1_79 # 86366 # 87886 # 1 # ID=51_79;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.527
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/6839at91347.hmm
+# Target file:     reports/busco-results/GCF_000171415.1_ASM17141v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout reports/busco-results/GCF_000171415.1_ASM17141v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/6839at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/6839at91347.hmm reports/busco-results/GCF_000171415.1_ASM17141v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Sat Feb 21 23:26:49 2026
+# [ok]

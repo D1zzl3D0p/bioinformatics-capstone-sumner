@@ -5,3 +5,5 @@
 *.xlsx
 *.DS_STORE
 *.msh
+databases
+data

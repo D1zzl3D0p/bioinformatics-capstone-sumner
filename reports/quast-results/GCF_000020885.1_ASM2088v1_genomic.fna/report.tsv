@@ -1,0 +1,23 @@
+Assembly	GCF_000020885.1_ASM2088v1_genomic
+# contigs (>= 0 bp)	2
+# contigs (>= 1000 bp)	2
+# contigs (>= 5000 bp)	2
+# contigs (>= 10000 bp)	2
+# contigs (>= 25000 bp)	2
+# contigs (>= 50000 bp)	1
+Total length (>= 0 bp)	4836638
+Total length (>= 1000 bp)	4836638
+Total length (>= 5000 bp)	4836638
+Total length (>= 10000 bp)	4836638
+Total length (>= 25000 bp)	4836638
+Total length (>= 50000 bp)	4798660
+# contigs	2
+Largest contig	4798660
+Total length	4836638
+GC (%)	52.00
+N50	4798660
+N90	4798660
+auN	4761278.4
+L50	1
+L90	1
+# N's per 100 kbp	0.00
