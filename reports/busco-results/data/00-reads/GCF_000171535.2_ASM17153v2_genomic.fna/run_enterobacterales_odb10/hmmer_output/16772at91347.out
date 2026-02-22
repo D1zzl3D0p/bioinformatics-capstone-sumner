@@ -1,0 +1,20 @@
+#                                                                                           --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                       accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#               ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_ABFH02000001.1:1053617-1055158|+ -            514 16772at91347         -            446  5.6e-261  864.0   7.6   1   1  5.4e-263  4.1e-260  861.1   7.6     1   433     1   476     1   487 0.94 NZ_ABFH02000001.1_938 # 1053617 # 1055158 # 1 # ID=5_938;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.553
+NZ_ABFH02000002.1:603463-604764|-   -            434 16772at91347         -            446     2e-39  133.8   0.0   1   1   3.4e-42   2.6e-39  133.5   0.0    62   403    65   414    22   420 0.87 NZ_ABFH02000002.1_590 # 603463 # 604764 # -1 # ID=4_590;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.511
+NZ_ABFH02000001.1:2148954-2150249|+ -            432 16772at91347         -            446   3.3e-35  119.9   0.0   1   1   5.8e-38   4.4e-35  119.5   0.0    55   376    52   381    38   405 0.92 NZ_ABFH02000001.1_1950 # 2148954 # 2150249 # 1 # ID=5_1950;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.543
+NZ_ABFH02000001.1:1056099-1057481|+ -            461 16772at91347         -            446   3.5e-33  113.3   0.0   1   2   1.7e-34   1.3e-31  108.1   0.0    62   401    50   403    11   412 0.87 NZ_ABFH02000001.1_940 # 1056099 # 1057481 # 1 # ID=5_940;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.555
+NZ_ABFH02000001.1:1056099-1057481|+ -            461 16772at91347         -            446   3.5e-33  113.3   0.0   2   2     0.011       8.3    3.2   0.0    24    56   415   447   406   457 0.85 NZ_ABFH02000001.1_940 # 1056099 # 1057481 # 1 # ID=5_940;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.555
+NZ_ABFH02000002.1:30518-31888|-     -            457 16772at91347         -            446   9.8e-31  105.2   0.0   1   1     2e-33   1.5e-30  104.6   0.0    87   385   109   418   102   441 0.82 NZ_ABFH02000002.1_33 # 30518 # 31888 # -1 # ID=4_33;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.598
+NZ_ABFH02000001.1:1004768-1006027|- -            420 16772at91347         -            446    0.0072   13.3   0.1   1   1   1.5e-05     0.011   12.7   0.0   135   255   161   276   153   326 0.77 NZ_ABFH02000001.1_898 # 1004768 # 1006027 # -1 # ID=5_898;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.528
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/16772at91347.hmm
+# Target file:     reports/busco-results/data/00-reads/GCF_000171535.2_ASM17153v2_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout reports/busco-results/data/00-reads/GCF_000171535.2_ASM17153v2_genomic.fna/run_enterobacterales_odb10/hmmer_output/16772at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/16772at91347.hmm reports/busco-results/data/00-reads/GCF_000171535.2_ASM17153v2_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Sat Feb 21 22:06:43 2026
+# [ok]

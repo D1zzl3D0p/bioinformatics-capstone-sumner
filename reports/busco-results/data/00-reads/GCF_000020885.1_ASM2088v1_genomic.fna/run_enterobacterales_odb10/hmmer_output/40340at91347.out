@@ -1,0 +1,17 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NC_011149.1:2110861-2111928|+ -            356 40340at91347         -            299  7.1e-156  515.9   1.5   1   2   1.2e-60   1.8e-57  192.7   0.1     1   131     1   154     1   171 0.92 NC_011149.1_1995 # 2110861 # 2111928 # 1 # ID=1_1995;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.523
+NC_011149.1:2110861-2111928|+ -            356 40340at91347         -            299  7.1e-156  515.9   1.5   2   2  9.7e-100   1.5e-96  321.1   0.2   126   299   172   355   166   355 0.95 NC_011149.1_1995 # 2110861 # 2111928 # 1 # ID=1_1995;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.523
+NC_011149.1:297983-298549|+   -            189 40340at91347         -            299   6.9e-12   43.1   0.1   1   1   1.6e-14   2.4e-11   41.4   0.1     5   121     7   149     3   163 0.80 NC_011149.1_259 # 297983 # 298549 # 1 # ID=1_259;partial=00;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.520
+NC_011149.1:4157463-4158062|+ -            200 40340at91347         -            299     0.015   12.4   0.0   1   1   1.4e-05     0.022   11.9   0.0    32   125    85   183    80   190 0.73 NC_011149.1_3872 # 4157463 # 4158062 # 1 # ID=1_3872;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.500
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/40340at91347.hmm
+# Target file:     reports/busco-results/data/00-reads/GCF_000020885.1_ASM2088v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout reports/busco-results/data/00-reads/GCF_000020885.1_ASM2088v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/40340at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/40340at91347.hmm reports/busco-results/data/00-reads/GCF_000020885.1_ASM2088v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Sat Feb 21 22:04:12 2026
+# [ok]

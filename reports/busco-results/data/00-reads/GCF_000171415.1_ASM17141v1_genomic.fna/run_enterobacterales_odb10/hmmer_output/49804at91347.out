@@ -1,0 +1,15 @@
+#                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                  accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#          ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_ABEW01000003.1:8992-10284|- -            431 49804at91347         -            314    5e-117  388.9   0.0   1   2   7.3e-96   3.4e-92  307.3   0.2     2   242    15   314    14   322 0.84 NZ_ABEW01000003.1_13 # 8992 # 10284 # -1 # ID=61_13;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.589
+NZ_ABEW01000003.1:8992-10284|- -            431 49804at91347         -            314    5e-117  388.9   0.0   2   2   2.4e-26   1.1e-22   78.9   0.0   252   313   353   417   326   418 0.85 NZ_ABEW01000003.1_13 # 8992 # 10284 # -1 # ID=61_13;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.589
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/49804at91347.hmm
+# Target file:     reports/busco-results/data/00-reads/GCF_000171415.1_ASM17141v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout reports/busco-results/data/00-reads/GCF_000171415.1_ASM17141v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/49804at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/49804at91347.hmm reports/busco-results/data/00-reads/GCF_000171415.1_ASM17141v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Sat Feb 21 22:06:13 2026
+# [ok]

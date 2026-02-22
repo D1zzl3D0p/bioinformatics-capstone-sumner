@@ -1,0 +1,21 @@
+#                                                                                           --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                       accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#               ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_ABAM02000001.1:3838039-3839973|- -            645 6839at91347          -            506  9.2e-295  975.8   7.4   1   1    8e-295  4.9e-292  966.8   7.4     1   506     3   595     3   595 0.93 NZ_ABAM02000001.1_3541 # 3838039 # 3839973 # -1 # ID=2_3541;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=3-4bp;gc_cont=0.559
+NZ_ABAM02000001.1:4666924-4668255|- -            444 6839at91347          -            506   9.7e-09   32.2   0.1   1   2   2.2e-10   1.4e-07   28.4   0.0    99   189    16   110     2   117 0.78 NZ_ABAM02000001.1_4308 # 4666924 # 4668255 # -1 # ID=2_4308;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.532
+NZ_ABAM02000001.1:4666924-4668255|- -            444 6839at91347          -            506   9.7e-09   32.2   0.1   2   2     0.028        17    1.7   0.0   192   218   251   275   180   312 0.80 NZ_ABAM02000001.1_4308 # 4666924 # 4668255 # -1 # ID=2_4308;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.532
+NZ_ABAM02000001.1:1003018-1004289|+ -            424 6839at91347          -            506   2.6e-08   30.8   0.0   1   1   6.4e-11     4e-08   30.2   0.0    89   206    66   193    53   214 0.73 NZ_ABAM02000001.1_887 # 1003018 # 1004289 # 1 # ID=2_887;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.531
+NZ_ABAM02000001.1:1497439-1498782|+ -            448 6839at91347          -            506     0.001   15.6   0.0   1   1   2.3e-06    0.0014   15.1   0.0   134   203    53   119    44   197 0.83 NZ_ABAM02000001.1_1346 # 1497439 # 1498782 # 1 # ID=2_1346;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.571
+NZ_ABAM02000001.1:2448981-2449991|- -            337 6839at91347          -            506    0.0021   14.6   0.0   1   1   5.4e-06    0.0033   13.9   0.0   130   164    54    88    29   104 0.89 NZ_ABAM02000001.1_2276 # 2448981 # 2449991 # -1 # ID=2_2276;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.573
+NZ_ABAM02000001.1:1004475-1006829|+ -            785 6839at91347          -            506    0.0096   12.4   0.0   1   1   2.6e-05     0.016   11.7   0.0   112   153   333   371   305   384 0.83 NZ_ABAM02000001.1_888 # 1004475 # 1006829 # 1 # ID=2_888;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.539
+NZ_ABAM02000001.1:4474868-4476388|- -            507 6839at91347          -            506     0.014   11.9   0.2   1   1   3.5e-05     0.022   11.3   0.2   133   153   212   232   196   235 0.88 NZ_ABAM02000001.1_4127 # 4474868 # 4476388 # -1 # ID=2_4127;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.525
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/6839at91347.hmm
+# Target file:     reports/busco-results/data/00-reads/GCF_000170215.1_ASM17021v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout reports/busco-results/data/00-reads/GCF_000170215.1_ASM17021v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/6839at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/6839at91347.hmm reports/busco-results/data/00-reads/GCF_000170215.1_ASM17021v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Sat Feb 21 22:04:58 2026
+# [ok]

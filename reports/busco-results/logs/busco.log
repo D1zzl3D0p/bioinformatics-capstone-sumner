@@ -1,0 +1,13 @@
+2026-02-21 21:37:31 DEBUG:busco.run_BUSCO	Command line: /opt/homebrew/Caskroom/miniconda/base/bin/busco -i data/00-reads/GCF_000171535.2_ASM17153v2_genomic.fna -m genome -o reports/busco-results -l enterobacterales_odb10 --cpu 11
+2026-02-21 21:37:31 INFO:busco.run_BUSCO	***** Start a BUSCO v6.0.0 analysis, current time: 02/21/2026 21:37:31 *****
+2026-02-21 21:37:31 DEBUG:busco.ConfigManager	Getting config file
+2026-02-21 21:37:31 INFO:busco.ConfigManager	Configuring BUSCO with local environment
+2026-02-21 21:37:31 INFO:busco.BuscoConfig	Running genome mode
+2026-02-21 21:37:31 ERROR:busco.run_BUSCO	Error in BUSCO configuration: A run with the name reports/busco-results already exists...
+	If you are sure you wish to overwrite existing files, please use the -f (force) option
+2026-02-21 21:37:31 INFO:busco.run_BUSCO	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2026-02-21 21:37:31 DEBUG:urllib3.connectionpool	Starting new HTTPS connection (1): busco-data.ezlab.org:443
+2026-02-21 21:37:31 DEBUG:urllib3.connectionpool	Starting new HTTPS connection (1): busco-data.ezlab.org:443
+2026-02-21 21:37:32 DEBUG:urllib3.connectionpool	https://busco-data.ezlab.org:443 "POST /uploaddb HTTP/1.1" 200 63
+2026-02-21 21:37:32 DEBUG:urllib3.connectionpool	https://busco-data.ezlab.org:443 "POST /uploaddb HTTP/1.1" 200 63
+2026-02-21 21:37:32 DEBUG:busco.run_BUSCO	Data uploaded successfully.

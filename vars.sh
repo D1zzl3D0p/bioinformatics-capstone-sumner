@@ -3,6 +3,7 @@
 
 export data_dir="data"
 export reads_dir=$data_dir/00-reads
+export index_dir=$data_dir/99-indexes
 # export trim_dir=$data_dir/01-cleaned\ and\ trimmed
 export scripts_dir="scripts"
 export reports_dir="reports"

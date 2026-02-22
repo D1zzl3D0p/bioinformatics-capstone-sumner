@@ -1,0 +1,18 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_ABEL01000020.1:5091-6041|-     -            317 56917at91347         -            273  3.2e-142  470.8   0.0   1   1  4.1e-145  4.5e-142  470.3   0.0     1   263    10   289    10   298 0.95 NZ_ABEL01000020.1_7 # 5091 # 6041 # -1 # ID=29_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.545
+NZ_ABEL01000001.1:248852-250021|+ -            390 56917at91347         -            273     0.018   12.5   0.0   1   1   2.3e-05     0.026   12.0   0.0     3    37   114   148   112   175 0.84 NZ_ABEL01000001.1_253 # 248852 # 250021 # 1 # ID=48_253;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.528
+NZ_ABEL01000012.1:42803-44134|+   -            444 56917at91347         -            273     0.029   11.8   0.0   1   1   5.2e-05     0.057   10.8   0.0     1    35    50    84    50   132 0.79 NZ_ABEL01000012.1_35 # 42803 # 44134 # 1 # ID=37_35;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.531
+NZ_ABEL01000001.1:722488-724764|+ -            759 56917at91347         -            273      0.04   11.3   0.0   1   2      0.94     1e+03   -3.1   0.0     6    44   212   251   211   252 0.66 NZ_ABEL01000001.1_699 # 722488 # 724764 # 1 # ID=48_699;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.542
+NZ_ABEL01000001.1:722488-724764|+ -            759 56917at91347         -            273      0.04   11.3   0.0   2   2   0.00011      0.12    9.7   0.0     5    33   492   520   489   528 0.88 NZ_ABEL01000001.1_699 # 722488 # 724764 # 1 # ID=48_699;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.542
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/56917at91347.hmm
+# Target file:     reports/busco-results/data/00-reads/GCF_000171315.1_ASM17131v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout reports/busco-results/data/00-reads/GCF_000171315.1_ASM17131v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/56917at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/56917at91347.hmm reports/busco-results/data/00-reads/GCF_000171315.1_ASM17131v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Sat Feb 21 22:05:58 2026
+# [ok]

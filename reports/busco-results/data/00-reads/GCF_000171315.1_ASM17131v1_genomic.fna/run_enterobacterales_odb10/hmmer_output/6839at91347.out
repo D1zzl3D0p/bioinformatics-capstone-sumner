@@ -1,0 +1,21 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_ABEL01000006.1:184659-186602|- -            648 6839at91347          -            506  5.3e-295  976.6   6.7   1   1    5e-295  3.2e-292  967.4   6.7     1   506     6   598     6   598 0.93 NZ_ABEL01000006.1_172 # 184659 # 186602 # -1 # ID=43_172;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.559
+NZ_ABEL01000012.1:42803-44134|+   -            444 6839at91347          -            506   9.9e-09   32.2   0.1   1   2   2.2e-10   1.4e-07   28.4   0.0    99   189    16   110     2   117 0.78 NZ_ABEL01000012.1_35 # 42803 # 44134 # 1 # ID=37_35;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.531
+NZ_ABEL01000012.1:42803-44134|+   -            444 6839at91347          -            506   9.9e-09   32.2   0.1   2   2     0.028        18    1.7   0.0   192   218   251   275   180   312 0.80 NZ_ABEL01000012.1_35 # 42803 # 44134 # 1 # ID=37_35;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.531
+NZ_ABEL01000001.1:248852-250021|+ -            390 6839at91347          -            506   2.5e-08   30.9   0.0   1   1   5.4e-11   3.4e-08   30.4   0.0    89   206    66   193    53   214 0.73 NZ_ABEL01000001.1_253 # 248852 # 250021 # 1 # ID=48_253;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.528
+NZ_ABEL01000002.1:575632-576642|- -            337 6839at91347          -            506   0.00057   16.5   0.0   1   1   1.5e-06   0.00092   15.8   0.0   124   164    48    88    28   104 0.90 NZ_ABEL01000002.1_560 # 575632 # 576642 # -1 # ID=47_560;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.579
+NZ_ABEL01000001.1:741818-743161|+ -            448 6839at91347          -            506     0.001   15.6   0.0   1   1   2.3e-06    0.0015   15.1   0.0   134   203    53   119    44   197 0.83 NZ_ABEL01000001.1_714 # 741818 # 743161 # 1 # ID=48_714;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.572
+NZ_ABEL01000001.1:250301-252655|+ -            785 6839at91347          -            506    0.0098   12.4   0.0   1   1   2.6e-05     0.016   11.7   0.0   112   153   333   371   305   384 0.83 NZ_ABEL01000001.1_254 # 250301 # 252655 # 1 # ID=48_254;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.540
+NZ_ABEL01000022.1:1503-3023|-     -            507 6839at91347          -            506     0.014   11.9   0.2   1   1   3.5e-05     0.022   11.3   0.2   133   153   212   232   196   235 0.88 NZ_ABEL01000022.1_3 # 1503 # 3023 # -1 # ID=27_3;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.527
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/6839at91347.hmm
+# Target file:     reports/busco-results/data/00-reads/GCF_000171315.1_ASM17131v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout reports/busco-results/data/00-reads/GCF_000171315.1_ASM17131v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/6839at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/6839at91347.hmm reports/busco-results/data/00-reads/GCF_000171315.1_ASM17131v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Sat Feb 21 22:05:59 2026
+# [ok]

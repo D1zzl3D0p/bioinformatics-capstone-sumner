@@ -1,0 +1,16 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_ABEI01000003.1:97473-97973|+   -            167 84552at91347         -            359   5.2e-75  250.8   2.9   1   1   2.6e-78   5.7e-75  250.7   2.9   192   354     1   164     1   166 0.98 NZ_ABEI01000003.1_90 # 97473 # 97973 # 1 # ID=51_90;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.529
+NZ_ABEI01000002.1:313435-314199|- -            255 84552at91347         -            359   2.4e-09   34.8   1.6   1   2     0.083   1.8e+02   -1.0   1.0   121   155    53    86    11    97 0.71 NZ_ABEI01000002.1_303 # 313435 # 314199 # -1 # ID=52_303;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.565
+NZ_ABEI01000002.1:313435-314199|- -            255 84552at91347         -            359   2.4e-09   34.8   1.6   2   2   1.1e-12   2.4e-09   34.8   1.6   111   189   152   234   144   246 0.87 NZ_ABEI01000002.1_303 # 313435 # 314199 # -1 # ID=52_303;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.565
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/84552at91347.hmm
+# Target file:     reports/busco-results/data/00-reads/GCF_000171275.1_ASM17127v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout reports/busco-results/data/00-reads/GCF_000171275.1_ASM17127v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/84552at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/84552at91347.hmm reports/busco-results/data/00-reads/GCF_000171275.1_ASM17127v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Sat Feb 21 22:05:44 2026
+# [ok]

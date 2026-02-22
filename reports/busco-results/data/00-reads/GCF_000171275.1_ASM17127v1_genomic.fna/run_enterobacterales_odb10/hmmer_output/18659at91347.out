@@ -1,0 +1,18 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_ABEI01000028.1:22349-23608|+ -            420 18659at91347         -            389  1.6e-257  851.4   1.4   1   1  2.8e-260  2.4e-257  850.9   1.4     1   389     1   414     1   414 0.97 NZ_ABEI01000028.1_21 # 22349 # 23608 # 1 # ID=26_21;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.528
+NZ_ABEI01000005.1:66181-67476|- -            432 18659at91347         -            389   3.4e-15   53.7   0.0   1   1   5.3e-18   4.6e-15   53.2   0.0   153   350   141   352   129   381 0.80 NZ_ABEI01000005.1_70 # 66181 # 67476 # -1 # ID=49_70;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.542
+NZ_ABEI01000018.1:81077-82378|+ -            434 18659at91347         -            389   6.9e-15   52.7   0.1   1   1   1.1e-17   9.6e-15   52.2   0.1   152   353   143   358   135   385 0.78 NZ_ABEI01000018.1_80 # 81077 # 82378 # 1 # ID=36_80;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.515
+NZ_ABEI01000026.1:22791-24161|+ -            457 18659at91347         -            389   9.6e-10   35.7   0.1   1   1   1.6e-12   1.4e-09   35.2   0.1   151   354   162   382   156   399 0.79 NZ_ABEI01000026.1_26 # 22791 # 24161 # 1 # ID=28_26;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.601
+NZ_ABEI01000032.1:1348-2889|-   -            514 18659at91347         -            389     0.025   11.3   0.0   1   1   5.6e-05     0.049   10.3   0.0   154   181   152   179   144   192 0.86 NZ_ABEI01000032.1_3 # 1348 # 2889 # -1 # ID=22_3;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.553
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/18659at91347.hmm
+# Target file:     reports/busco-results/data/00-reads/GCF_000171275.1_ASM17127v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout reports/busco-results/data/00-reads/GCF_000171275.1_ASM17127v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/18659at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/18659at91347.hmm reports/busco-results/data/00-reads/GCF_000171275.1_ASM17127v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Sat Feb 21 22:05:42 2026
+# [ok]

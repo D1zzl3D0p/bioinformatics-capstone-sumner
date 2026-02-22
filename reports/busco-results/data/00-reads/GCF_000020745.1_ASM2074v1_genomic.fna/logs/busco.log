@@ -1,0 +1,13 @@
+2026-02-21 22:03:51 DEBUG:busco.run_BUSCO	Command line: /Users/dizzler/Miniforge3/envs/capstone_env/bin/busco -i data/00-reads/GCF_000020745.1_ASM2074v1_genomic.fna -m genome -o reports/busco-results/data/00-reads/GCF_000020745.1_ASM2074v1_genomic.fna/ -l enterobacterales_odb10 --cpu 11
+2026-02-21 22:03:51 INFO:busco.run_BUSCO	***** Start a BUSCO v6.0.0 analysis, current time: 02/21/2026 22:03:51 *****
+2026-02-21 22:03:51 DEBUG:busco.ConfigManager	Getting config file
+2026-02-21 22:03:51 INFO:busco.ConfigManager	Configuring BUSCO with local environment
+2026-02-21 22:03:51 INFO:busco.BuscoConfig	Running genome mode
+2026-02-21 22:03:51 ERROR:busco.run_BUSCO	Error in BUSCO configuration: A run with the name reports/busco-results/data/00-reads/GCF_000020745.1_ASM2074v1_genomic.fna already exists...
+	If you are sure you wish to overwrite existing files, please use the -f (force) option
+2026-02-21 22:03:51 INFO:busco.run_BUSCO	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2026-02-21 22:03:51 DEBUG:urllib3.connectionpool	Starting new HTTPS connection (1): busco-data.ezlab.org:443
+2026-02-21 22:03:51 DEBUG:urllib3.connectionpool	Starting new HTTPS connection (1): busco-data.ezlab.org:443
+2026-02-21 22:03:52 DEBUG:urllib3.connectionpool	https://busco-data.ezlab.org:443 "POST /uploaddb HTTP/1.1" 200 63
+2026-02-21 22:03:52 DEBUG:urllib3.connectionpool	https://busco-data.ezlab.org:443 "POST /uploaddb HTTP/1.1" 200 63
+2026-02-21 22:03:52 DEBUG:busco.run_BUSCO	Data uploaded successfully.

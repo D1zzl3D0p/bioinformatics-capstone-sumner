@@ -1,0 +1,64 @@
+/Users/dizzler/Miniforge3/envs/capstone_env/bin/quast -o reports/quast-results data/00-reads/GCF_000171535.2_ASM17153v2_genomic.fna
+
+Version: 5.3.0
+
+System information:
+  OS: macOS-26.2-x86_64-i386-64bit (macosx)
+  Python version: 3.9.23
+  CPUs number: 12
+
+Started: 2026-02-21 22:06:47
+
+Logging to /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/quast-results/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
+NOTICE: Maximum number of threads is set to 3 (use --threads option to set it manually)
+WARNING: Maximum number of threads is reset to 1 to prevent the crash due to a known bug when using multi-threading in Python 3.8+ on macOS! For multi-threading please downgrade your Python to 3.7. Sorry for the inconvenience! Please find more details in https://github.com/ablab/quast/issues/175
+
+CWD: /Users/dizzler/Projects/School/BIOL4600-Capstone
+Main parameters: 
+  MODE: default, threads: 1, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  data/00-reads/GCF_000171535.2_ASM17153v2_genomic.fna ==> GCF_000171535.2_ASM17153v2_genomic
+
+2026-02-21 22:06:47
+Running Basic statistics processor...
+  Contig files: 
+    GCF_000171535.2_ASM17153v2_genomic
+  Calculating N50 and L50...
+    GCF_000171535.2_ASM17153v2_genomic, N50 = 3027433, L50 = 1, auN = 2571079.9, Total length = 4876885, GC % = 52.07, # N's per 100 kbp =  0.06
+  Drawing Nx plot...
+    saved to /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/quast-results/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/quast-results/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/quast-results/basic_stats/GC_content_plot.pdf
+  Drawing GCF_000171535.2_ASM17153v2_genomic GC content plot...
+    saved to /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/quast-results/basic_stats/GCF_000171535.2_ASM17153v2_genomic_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-02-21 22:06:48
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2026-02-21 22:06:48
+RESULTS:
+  Text versions of total report are saved to /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/quast-results/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/quast-results/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/quast-results/report.html
+  PDF version (tables and plots) is saved to /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/quast-results/report.pdf
+  Icarus (contig browser) is saved to /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/quast-results/icarus.html
+  Log is saved to /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/quast-results/quast.log
+
+Finished: 2026-02-21 22:06:48
+Elapsed time: 0:00:00.988278
+NOTICEs: 3; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
