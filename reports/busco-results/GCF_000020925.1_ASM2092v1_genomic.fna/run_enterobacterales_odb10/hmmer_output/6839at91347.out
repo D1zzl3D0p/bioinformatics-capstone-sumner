@@ -13,9 +13,9 @@ NC_011205.1:4135457-4136977|- -            507 6839at91347          -           
 # Program:         hmmsearch
 # Version:         3.4 (Aug 2023)
 # Pipeline mode:   SEARCH
-# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/6839at91347.hmm
-# Target file:     reports/busco-results/GCF_000020925.1_ASM2092v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
-# Option settings: hmmsearch --domtblout reports/busco-results/GCF_000020925.1_ASM2092v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/6839at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/6839at91347.hmm reports/busco-results/GCF_000020925.1_ASM2092v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/databases/lineages/enterobacterales_odb10/hmms/6839at91347.hmm
+# Target file:     /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/busco-results/GCF_000020925.1_ASM2092v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/busco-results/GCF_000020925.1_ASM2092v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/6839at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/databases/lineages/enterobacterales_odb10/hmms/6839at91347.hmm /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/busco-results/GCF_000020925.1_ASM2092v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
 # Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
-# Date:            Sat Feb 21 23:24:02 2026
+# Date:            Wed Feb 25 22:55:18 2026
 # [ok]

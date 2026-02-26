@@ -1,0 +1,15 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NC_011094.1:1806677-1807420|+ -            248 80129at91347         -            202     6e-75  249.7  31.0   1   2   1.7e-69   7.9e-66  219.9  18.3     1   182     1   208     1   215 0.88 NC_011094.1_1724 # 1806677 # 1807420 # 1 # ID=1_1724;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.511
+NC_011094.1:1806677-1807420|+ -            248 80129at91347         -            202     6e-75  249.7  31.0   2   2   9.9e-10   4.5e-06   24.8   5.2   177   202   221   246   210   246 0.89 NC_011094.1_1724 # 1806677 # 1807420 # 1 # ID=1_1724;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.511
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/databases/lineages/enterobacterales_odb10/hmms/80129at91347.hmm
+# Target file:     /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/busco-results/GCF_000020745.1_ASM2074v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/busco-results/GCF_000020745.1_ASM2074v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/80129at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/databases/lineages/enterobacterales_odb10/hmms/80129at91347.hmm /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/busco-results/GCF_000020745.1_ASM2074v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Wed Feb 25 22:53:27 2026
+# [ok]

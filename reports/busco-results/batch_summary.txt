@@ -1,0 +1,14 @@
+Input_file	Dataset	Complete	Single	Duplicated	Fragmented	Missing	n_markers	Translation table	Scaffold N50	Contigs N50	Percent gaps	Number of scaffolds
+GCF_000020745.1_ASM2074v1_genomic.fna	enterobacterales_odb10	99.1	98.6	0.5	0.0	0.9	440	11	4709075	4709075	0.000%	3
+GCF_000171515.1_ASM17151v1_genomic.fna	enterobacterales_odb10	97.5	97.3	0.2	0.2	2.3	440	11	370713	370713	0.000%	50
+GCF_000170215.1_ASM17021v1_genomic.fna	enterobacterales_odb10	98.4	98.2	0.2	0.2	1.4	440	11	4719855	4719855	0.000%	2
+GCF_000171275.1_ASM17127v1_genomic.fna	enterobacterales_odb10	89.5	89.5	0.0	1.6	8.9	440	11	233156	233156	0.000%	53
+GCF_000171415.1_ASM17141v1_genomic.fna	enterobacterales_odb10	99.1	98.9	0.2	0.5	0.5	440	11	484233	484233	0.000%	63
+GCF_000171315.1_ASM17131v1_genomic.fna	enterobacterales_odb10	90.2	90.2	0.0	1.1	8.6	440	11	308442	308442	0.000%	48
+GCF_000020885.1_ASM2088v1_genomic.fna	enterobacterales_odb10	99.3	98.9	0.5	0.0	0.7	440	11	4798660	4798660	0.000%	2
+GCF_000170255.1_ASM17025v1_genomic.fna	enterobacterales_odb10	90.0	90.0	0.0	1.4	8.6	440	11	103713	103713	0.000%	113
+GCF_000171255.1_ASM17125v1_genomic.fna	enterobacterales_odb10	90.9	90.7	0.2	0.9	8.2	440	11	471765	471765	0.000%	19
+GCF_000007545.1_ASM754v1_genomic.fna	enterobacterales_odb10	99.5	99.3	0.2	0.0	0.5	440	11	4791961	4791961	0.000%	1
+GCF_000171535.2_ASM17153v2_genomic.fna	enterobacterales_odb10	99.5	99.3	0.2	0.0	0.5	440	11	3027433	3027433	0.000%	5
+GCF_000020925.1_ASM2092v1_genomic.fna	enterobacterales_odb10	99.1	98.9	0.2	0.0	0.9	440	11	4842908	4842908	0.000%	2
+GCF_000022165.1_ASM2216v1_genomic.fna	enterobacterales_odb10	99.1	98.9	0.2	0.0	0.9	440	11	4870265	4870265	0.000%	2

@@ -1,6 +1,8 @@
 #!/bin/zsh
 set -e
 
+source vars.sh
+
 source "${MAMBA_ROOT_PREFIX}/etc/profile.d/conda.sh"
 source "${MAMBA_ROOT_PREFIX}/etc/profile.d/mamba.sh"
 
@@ -17,17 +19,13 @@ create_env() {
 }
 
 # --- 1. Data Processing Env (Lightweight tools) ---
-create_env "data_env" python=3.11 ncbi-datasets-cli seqkit
+create_env "data_env" python=3.11 ncbi-datasets-cli=18.18.0 seqkit=2.12.0
 
-# --- 2. Quality Assessment (CheckM2) ---
-# CheckM2 is picky; we'll use Python 3.8 as it's the most stable for its ML models
-create_env "checkm2_env" python=3.8 checkm2
-
-# --- 3. Evolutionary/Lineage (BUSCO & SEPP) ---
+# --- 2. Evolutionary/Lineage (BUSCO & SEPP) ---
 # SEPP and BUSCO often share dependencies like HMMER and Diamond
-create_env "busco_env" python=3.10 busco sepp
+create_env "busco_env" python=3.10 busco=6.0.0 sepp=4.5.5
 
-# --- 4. Assembly Evaluation (QUAST) ---
-create_env "quast_env" python=3.9 quast
+# --- 3. Assembly Evaluation (QUAST) ---
+create_env "quast_env" python=3.9 quast=5.3.0
 
 echo "All environments created successfully!"

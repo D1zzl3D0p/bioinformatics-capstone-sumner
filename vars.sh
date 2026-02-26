@@ -14,5 +14,5 @@ export db_dir="databases"
 # tool specific settings
 export MAMBA_ROOT_PREFIX="/Users/dizzler/Miniforge3"
 export MAMBA_ENVS="$MAMBA_ROOT_PREFIX/envs"
-export CHECKM2DB="$db_dir/CheckM2_database/"
+export CHECKM2DB="$db_dir/CheckM2_database/uniref100.KO.1.dmnd"
 export BUSCO_RESOURCES_DESTINATION="$db_dir/busco_downloads"

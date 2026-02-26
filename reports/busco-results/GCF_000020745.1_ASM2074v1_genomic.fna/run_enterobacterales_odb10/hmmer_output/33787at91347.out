@@ -1,0 +1,21 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NC_011094.1:3361539-3362876|- -            446 33787at91347         -            385  6.2e-212  701.2   1.5   1   2  4.3e-206  3.9e-203  672.2   0.4     1   357     1   376     1   380 0.97 NC_011094.1_3175 # 3361539 # 3362876 # -1 # ID=1_3175;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.572
+NC_011094.1:3361539-3362876|- -            446 33787at91347         -            385  6.2e-212  701.2   1.5   2   2     2e-10   1.8e-07   28.1   0.0   354   382   402   430   395   433 0.88 NC_011094.1_3175 # 3361539 # 3362876 # -1 # ID=1_3175;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.572
+NC_011094.1:2208563-2209933|- -            457 33787at91347         -            385   1.3e-31  107.6   0.0   1   2   2.2e-33     2e-30  103.7   0.0     2   349     2   372     1   376 0.81 NC_011094.1_2143 # 2208563 # 2209933 # -1 # ID=1_2143;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.621
+NC_011094.1:2208563-2209933|- -            457 33787at91347         -            385   1.3e-31  107.6   0.0   2   2      0.05        46    0.5   0.0   360   377   419   436   416   440 0.88 NC_011094.1_2143 # 2208563 # 2209933 # -1 # ID=1_2143;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.621
+NC_011092.1:76993-77295|+     -            101 33787at91347         -            385   7.9e-24   82.0   0.1   1   1     1e-26   9.3e-24   81.7   0.1     4    82     3    82     1    84 0.95 NC_011092.1_85 # 76993 # 77295 # 1 # ID=2_85;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.581
+NC_011094.1:2181711-2183144|- -            478 33787at91347         -            385   3.9e-18   63.2   0.0   1   1   6.8e-21   6.2e-18   62.6   0.0     6   244    17   266    13   316 0.82 NC_011094.1_2119 # 2181711 # 2183144 # -1 # ID=1_2119;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.411
+NC_011094.1:825524-827164|+   -            547 33787at91347         -            385   7.8e-10   35.9   0.0   1   2   7.3e-11   6.7e-08   29.5   0.0     6   129    41   174    36   186 0.77 NC_011094.1_793 # 825524 # 827164 # 1 # ID=1_793;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.561
+NC_011094.1:825524-827164|+   -            547 33787at91347         -            385   7.8e-10   35.9   0.0   2   2    0.0037       3.4    4.2   0.0   211   327   292   416   277   433 0.74 NC_011094.1_793 # 825524 # 827164 # 1 # ID=1_793;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.561
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/databases/lineages/enterobacterales_odb10/hmms/33787at91347.hmm
+# Target file:     /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/busco-results/GCF_000020745.1_ASM2074v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/busco-results/GCF_000020745.1_ASM2074v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/33787at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/databases/lineages/enterobacterales_odb10/hmms/33787at91347.hmm /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/busco-results/GCF_000020745.1_ASM2074v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Wed Feb 25 22:53:25 2026
+# [ok]

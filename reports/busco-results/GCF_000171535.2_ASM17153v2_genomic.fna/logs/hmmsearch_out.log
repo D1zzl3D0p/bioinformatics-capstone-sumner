@@ -3,9 +3,9 @@
 # Copyright (C) 2023 Howard Hughes Medical Institute.
 # Freely distributed under the BSD open source license.
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-# query HMM file:                  /Users/dizzler/Projects/School/BIOL4600-Capstone/busco_downloads/lineages/enterobacterales_odb10/hmms/9913at91347.hmm
-# target sequence database:        reports/busco-results/GCF_000171535.2_ASM17153v2_genomic.fna/prodigal_output/predicted_genes/predicted.faa
-# per-dom hits tabular output:     reports/busco-results/GCF_000171535.2_ASM17153v2_genomic.fna/run_enterobacterales_odb10/hmmer_output/9913at91347.out
+# query HMM file:                  /Users/dizzler/Projects/School/BIOL4600-Capstone/databases/lineages/enterobacterales_odb10/hmms/9913at91347.hmm
+# target sequence database:        /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/busco-results/GCF_000171535.2_ASM17153v2_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# per-dom hits tabular output:     /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/busco-results/GCF_000171535.2_ASM17153v2_genomic.fna/run_enterobacterales_odb10/hmmer_output/9913at91347.out
 # number of worker threads:        1
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -351,6 +351,6 @@ Passed Fwd filter:                        10  (0.00217628); expected 0.0 (1e-05)
 Initial search space (Z):               4595  [actual number of targets]
 Domain search space  (domZ):              10  [number of targets reported over threshold]
 # CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.04
-# Mc/sec: 16043.92
+# Mc/sec: 16041.99
 //
 [ok]

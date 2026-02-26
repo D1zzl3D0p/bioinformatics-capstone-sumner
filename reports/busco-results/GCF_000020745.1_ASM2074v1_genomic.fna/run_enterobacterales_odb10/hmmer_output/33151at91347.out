@@ -1,0 +1,19 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NC_011094.1:2178639-2180045|- -            469 33151at91347         -            402  9.5e-215  711.2   0.2   1   1  9.8e-218  1.1e-214  711.0   0.2     1   402     1   466     1   466 0.92 NC_011094.1_2117 # 2178639 # 2180045 # -1 # ID=1_2117;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.518
+NC_011094.1:3323652-3324542|- -            297 33151at91347         -            402   4.8e-07   27.2   1.7   1   1   5.2e-09   5.9e-06   23.7   1.7     4   173     3   193     1   249 0.75 NC_011094.1_3139 # 3323652 # 3324542 # -1 # ID=1_3139;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.566
+NC_011094.1:2966041-2966964|- -            308 33151at91347         -            402    0.0003   18.0   0.1   1   3      0.95   1.1e+03   -3.6   0.2     5    19     8    22     7    27 0.83 NC_011094.1_2809 # 2966041 # 2966964 # -1 # ID=1_2809;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.596
+NC_011094.1:2966041-2966964|- -            308 33151at91347         -            402    0.0003   18.0   0.1   2   3      0.28   3.1e+02   -1.8   0.0   140   174    80   119    66   122 0.74 NC_011094.1_2809 # 2966041 # 2966964 # -1 # ID=1_2809;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.596
+NC_011094.1:2966041-2966964|- -            308 33151at91347         -            402    0.0003   18.0   0.1   3   3   2.7e-07    0.0003   18.0   0.1    94   171   121   197   114   203 0.82 NC_011094.1_2809 # 2966041 # 2966964 # -1 # ID=1_2809;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.596
+NC_011094.1:4112101-4112997|- -            299 33151at91347         -            402     0.032   11.3   0.2   1   1   0.00011      0.12    9.4   0.2     6    39     4    37     1   201 0.52 NC_011094.1_3865 # 4112101 # 4112997 # -1 # ID=1_3865;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.562
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dizzler/Projects/School/BIOL4600-Capstone/databases/lineages/enterobacterales_odb10/hmms/33151at91347.hmm
+# Target file:     /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/busco-results/GCF_000020745.1_ASM2074v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/busco-results/GCF_000020745.1_ASM2074v1_genomic.fna/run_enterobacterales_odb10/hmmer_output/33151at91347.out --cpu 1 /Users/dizzler/Projects/School/BIOL4600-Capstone/databases/lineages/enterobacterales_odb10/hmms/33151at91347.hmm /Users/dizzler/Projects/School/BIOL4600-Capstone/reports/busco-results/GCF_000020745.1_ASM2074v1_genomic.fna/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dizzler/Projects/School/BIOL4600-Capstone
+# Date:            Wed Feb 25 22:53:25 2026
+# [ok]
