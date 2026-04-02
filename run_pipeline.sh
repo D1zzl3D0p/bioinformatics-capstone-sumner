@@ -10,4 +10,6 @@ source vars.sh
 #./gen_envs.sh
 
 # Start the pipeline
-./scripts/00-evaluation-of-data.sh
+#./scripts/00-evaluation-of-data.sh
+
+./scripts/01-genome-annotation.sh

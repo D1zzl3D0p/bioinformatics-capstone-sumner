@@ -28,4 +28,7 @@ create_env "busco_env" python=3.10 busco=6.0.0 sepp=4.5.5
 # --- 3. Assembly Evaluation (QUAST) ---
 create_env "quast_env" python=3.9 quast=5.3.0
 
+# --- 4. Genome Annotation (bakta) ---
+create_env "bakta_env" bakta=1.12.0
+
 echo "All environments created successfully!"
