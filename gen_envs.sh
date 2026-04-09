@@ -31,4 +31,16 @@ create_env "quast_env" python=3.9 quast=5.3.0
 # --- 4. Genome Annotation (bakta) ---
 create_env "bakta_env" bakta=1.12.0
 
+# --- 5. Pan-Genome Graph (PPanGGOLiN) ---
+create_env "ppanggolin_env" python=3.9 ppanggolin=2.2.5
+
+# --- 6. Pan-Genome Analysis (ggCaller) ---
+create_env "ggcaller_env" python=3.9 ggcaller=1.5.0
+
+# --- 7. Pan-Genome Clustering (Panaroo) ---
+create_env "panaroo_env" python=3.9 panaroo=1.6.0
+
+# --- 8. Pan-Genome Clustering (Roary) ---
+create_env "roary_env" python=3.9 roary=3.13.0
+
 echo "All environments created successfully!"

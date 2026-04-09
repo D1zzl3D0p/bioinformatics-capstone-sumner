@@ -12,4 +12,6 @@ source vars.sh
 # Start the pipeline
 #./scripts/00-evaluation-of-data.sh
 
-./scripts/01-genome-annotation.sh
+#./scripts/01-genome-annotation.sh
+
+./scripts/02-pan-genome-analysis.sh
