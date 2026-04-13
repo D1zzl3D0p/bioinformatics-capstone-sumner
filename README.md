@@ -1,10 +1,10 @@
 # bioinformatics-capstone-sumner
 
-A bioinformatics pipeline for analyzing and annotating bacterial genome assemblies. This project downloads genome sequences from NCBI, performs quality assessment, and runs genome annotation.
+A bioinformatics pipeline for analyzing and annotating bacterial genome assemblies. This project downloads genome sequences from NCBI, performs quality assessment, genome annotation, and pan-genome comparison across four independent tools.
 
 ## Overview
 
-This pipeline processes bacterial genome assemblies (Enterobacterales) through two main stages:
+This pipeline processes bacterial genome assemblies (Enterobacterales) through three main stages:
 
 **Stage 0 — Quality Evaluation** (`scripts/00-evaluation-of-data.sh`)
 - **BUSCO**: Assesses genome completeness using single-copy orthologs
@@ -12,6 +12,14 @@ This pipeline processes bacterial genome assemblies (Enterobacterales) through t
 
 **Stage 1 — Genome Annotation** (`scripts/01-genome-annotation.sh`)
 - **Bakta**: Rapid and standardized annotation of bacterial genomes
+
+**Stage 2 — Pan-Genome Analysis** (`scripts/02-pan-genome-analysis.sh`)
+
+Four pan-genome tools are run in parallel to enable methodological comparison of their outputs:
+- **PPanGGOLiN**: Partitions the pangenome into persistent, shell, and cloud gene families using a probabilistic model on a pangenome graph
+- **ggCaller**: Graph-based gene calling and pangenome analysis across all genomes simultaneously
+- **Panaroo**: Graph-based pangenome pipeline with error correction, using Bakta GFF3 annotations as input
+- **Roary**: Rapid core genome alignment and pangenome clustering, using Bakta GFF3 annotations as input
 
 ## Data
 
@@ -44,26 +52,35 @@ cd bioinformatics-capstone-sumner
 | `sepp` | 4.5.5 | Phylogenetic placement of sequences | `busco_env` |
 | `quast` | 5.3.0 | Genome assembly quality evaluation | `quast_env` |
 | `bakta` | 1.12.0 | Rapid bacterial genome annotation | `bakta_env` |
+| `ppanggolin` | 2.2.5 | Probabilistic pangenome graph partitioning | `ppanggolin_env` |
+| `ggcaller` | 1.5.0 | Graph-based gene calling and pan-genome analysis | `ggcaller_env` |
+| `panaroo` | 1.6.0 | Error-correcting graph-based pangenome pipeline | `panaroo_env` |
+| `roary` | 3.13.0 | Rapid core genome alignment and pangenome clustering | `roary_env` |
 
 ## Project Structure
 
 ```
 .
 ├── data/
-│   ├── 00-reads/           # Genome assembly files (.fna)
-│   └── 99-indexes/         # Mash indexes
-├── databases/              # Tool databases (bakta, busco)
+│   ├── 00-reads/                  # Genome assembly files (.fna)
+│   └── 99-indexes/                # Mash indexes
+├── databases/                     # Tool databases (bakta, busco)
 ├── reports/
-│   ├── bakta-results/      # Bakta annotation output
-│   ├── busco-results/      # BUSCO analysis output
-│   ├── ncbi-summary/       # NCBI genome summaries
-│   └── quast-results/      # QUAST reports
+│   ├── bakta-results/             # Bakta annotation output (.gff3)
+│   ├── busco-results/             # BUSCO analysis output
+│   ├── ggcaller-results/          # ggCaller pan-genome output
+│   ├── ncbi-summary/              # NCBI genome summaries
+│   ├── panaroo-results/           # Panaroo pan-genome output
+│   ├── ppanggolin-results/        # PPanGGOLiN pan-genome output
+│   ├── quast-results/             # QUAST reports
+│   └── roary-results/             # Roary pan-genome output
 ├── scripts/
 │   ├── 00-evaluation-of-data.sh   # BUSCO + QUAST
-│   └── 01-genome-annotation.sh    # Bakta annotation
-├── gen_envs.sh            # Create conda environments
-├── run_pipeline.sh        # Main entry point
-└── vars.sh                # Environment variables
+│   ├── 01-genome-annotation.sh    # Bakta annotation
+│   └── 02-pan-genome-analysis.sh  # Pan-genome comparison
+├── gen_envs.sh                    # Create conda environments
+├── run_pipeline.sh                # Main entry point
+└── vars.sh                        # Environment variables
 ```
 
 ## Usage
@@ -83,6 +100,7 @@ Run individual stages:
 source vars.sh
 ./scripts/00-evaluation-of-data.sh   # Quality evaluation
 ./scripts/01-genome-annotation.sh    # Genome annotation
+./scripts/02-pan-genome-analysis.sh  # Pan-genome comparison
 ```
 
 ## Citations
@@ -106,3 +124,15 @@ If using this pipeline or the tools it employs, please cite:
 
 **NCBI Datasets**
 > National Center for Biotechnology Information (NCBI). NCBI Datasets. https://www.ncbi.nlm.nih.gov/datasets/
+
+**PPanGGOLiN**
+> Gautreau G, Bazin A, Gachet M, Planel R, Burlot L, Dubois M, Perrin A, Médigue C, Calteau A, Cruveiller S, Matias C, Ambroset C, Siguier P, Glaser P, Touchon M, Rocha EPC. 2020. PPanGGOLiN: Depicting microbial diversity via a partitioned pangenome graph. *PLOS Computational Biology* 16(3):e1007732. https://doi.org/10.1371/journal.pcbi.1007732
+
+**ggCaller**
+> Horsfield ST, Tonkin-Hill G, Croucher NJ, Lees JA. 2023. Accurate and fast graph-based pangenome annotation and clustering with ggCaller. *Genome Research* 33(9):1622–1637. https://doi.org/10.1101/gr.277733.123
+
+**Panaroo**
+> Tonkin-Hill G, MacAlasdair N, Coelho LP, Croucher NJ, Corander J, Parkhill J, Bentley SD. 2020. Producing polished prokaryotic pangenomes with the Panaroo pipeline. *Genome Biology* 21:180. https://doi.org/10.1186/s13059-020-02090-4
+
+**Roary**
+> Page AJ, Cummins CA, Hunt M, Wong VK, Reuter S, Holden MTG, Fookes M, Falush D, Keane JA, Parkhill J. 2015. Roary: rapid large-scale prokaryote pan genome analysis. *Bioinformatics* 31(22):3691–3693. https://doi.org/10.1093/bioinformatics/btv421

@@ -1,0 +1,16 @@
+#soft_core=0.95
+#duplication_margin=0.05
+Genome_name	Contigs	Genes	Fragmented_genes	Families	Families_with_fragments	Families_in_multicopy	Soft_core_families	Soft_core_genes	Exact_core_families	Exact_core_genes	Persistent_genes	Persistent_fragmented_genes	Persistent_families	Persistent_families_with_fragments	Persistent_families_in_multicopy	Shell_genes	Shell_fragmented_genes	Shell_families	Shell_families_with_fragments	Shell_families_in_multicopy	Cloud_genes	Cloud_fragmented_genes	Cloud_families	Cloud_families_with_fragments	Cloud_families_in_multicopy	Completeness	Contamination	Fragmentation	RGPs	Spots	Modules
+GCF_000007545.1_ASM754v1_genomic	1	4609	248	4412	165	152	3480	3576	3480	3576	3830	205	3717	131	105	207	16	175	12	9	572	27	520	22	38	97.35	2.14	3.74	Not computed	Not computed	Not computed
+GCF_000020745.1_ASM2074v1_genomic	3	4546	44	4482	37	54	3480	3510	3480	3510	3795	25	3765	20	29	170	7	166	7	4	581	12	551	10	21	98.61	0.24	0.83	Not computed	Not computed	Not computed
+GCF_000020885.1_ASM2088v1_genomic	2	4507	33	4445	27	41	3480	3511	3480	3511	3816	14	3784	11	28	245	7	228	4	7	446	12	433	12	6	99.11	0.16	0.61	Not computed	Not computed	Not computed
+GCF_000020925.1_ASM2092v1_genomic	2	4678	132	4586	89	85	3480	3550	3480	3550	3858	97	3785	63	68	320	23	306	16	12	500	12	495	10	5	99.14	1.22	1.94	Not computed	Not computed	Not computed
+GCF_000022165.1_ASM2216v1_genomic	2	4657	32	4562	24	77	3480	3511	3480	3511	3843	18	3811	13	28	480	8	425	7	41	334	6	326	4	8	99.82	0.21	0.53	Not computed	Not computed	Not computed
+GCF_000170215.1_ASM17021v1_genomic	2	4355	17	4321	14	30	3480	3510	3480	3510	3843	12	3813	9	26	405	5	401	5	4	107	0	107	0	0	99.87	0.16	0.32	Not computed	Not computed	Not computed
+GCF_000170255.1_ASM17025v1_genomic	113	4645	103	4543	83	75	3480	3539	3480	3539	3843	80	3782	63	44	424	14	392	13	23	378	9	369	7	8	99.06	0.61	1.83	Not computed	Not computed	Not computed
+GCF_000171255.1_ASM17125v1_genomic	19	4212	54	4170	47	38	3480	3507	3480	3507	3758	28	3728	24	28	139	10	131	9	6	315	16	311	14	4	97.64	0.19	1.13	Not computed	Not computed	Not computed
+GCF_000171275.1_ASM17127v1_genomic	53	4355	59	4296	47	50	3480	3519	3480	3519	3810	41	3765	31	40	215	10	205	8	6	330	8	326	8	4	98.61	0.42	1.09	Not computed	Not computed	Not computed
+GCF_000171315.1_ASM17131v1_genomic	48	4424	41	4376	34	35	3480	3519	3480	3519	3822	29	3781	24	30	319	9	312	7	5	283	3	283	3	0	99.03	0.19	0.78	Not computed	Not computed	Not computed
+GCF_000171415.1_ASM17141v1_genomic	63	4691	48	4545	40	92	3480	3522	3480	3522	3845	23	3800	18	40	428	15	348	13	38	418	10	397	9	14	99.53	0.34	0.88	Not computed	Not computed	Not computed
+GCF_000171515.1_ASM17151v1_genomic	50	4461	76	4388	59	56	3480	3533	3480	3533	3850	53	3796	40	42	364	15	352	12	9	247	8	240	7	5	99.42	0.5	1.34	Not computed	Not computed	Not computed
+GCF_000171535.2_ASM17153v2_genomic	5	4589	53	4529	42	55	3480	3521	3480	3521	3834	35	3790	25	39	306	8	298	8	8	449	10	441	9	8	99.27	0.34	0.93	Not computed	Not computed	Not computed
