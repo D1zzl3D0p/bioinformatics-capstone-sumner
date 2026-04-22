@@ -44,3 +44,4 @@ create_env "panaroo_env" python=3.9 panaroo=1.6.0
 create_env "roary_env" python=3.9 roary=3.13.0
 
 echo "All environments created successfully!"
+echo "NOTE: Phobius and PSORTb run via Docker (not conda) — ensure Docker Desktop is running before stage 3."

@@ -15,3 +15,5 @@ source vars.sh
 #./scripts/01-genome-annotation.sh
 
 ./scripts/02-pan-genome-analysis.sh
+
+./scripts/03-membrane-protein-analysis.sh

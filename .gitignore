@@ -21,3 +21,7 @@ data
 # Large tool-specific outputs
 reports/panaroo-results/gene_data.csv
 reports/ggcaller-results/ORF_dir/kmer_array.dat
+reports/
+.DS_Store
+__pycache__/
+*.pyc

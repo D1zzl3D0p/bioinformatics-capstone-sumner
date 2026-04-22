@@ -21,6 +21,16 @@ Four pan-genome tools are run in parallel to enable methodological comparison of
 - **Panaroo**: Graph-based pangenome pipeline with error correction, using Bakta GFF3 annotations as input
 - **Roary**: Rapid core genome alignment and pangenome clustering, using Bakta GFF3 annotations as input
 
+**Stage 3 — Membrane Protein Analysis** (`scripts/03-membrane-protein-analysis.sh`)
+
+Identifies membrane-associated proteins conserved across all samples by combining two complementary predictors against the Panaroo core genome:
+- **Phobius**: Predicts transmembrane topology and signal peptides from protein sequences (run per sample via conda)
+- **PSORTb**: Predicts subcellular localization in gram-negative bacteria — inner membrane, outer membrane, periplasmic, etc. (run per sample via Docker)
+
+Results are cross-referenced with Panaroo's `gene_presence_absence.csv` to filter for core genes only. Two output files are produced:
+- `core_membrane_proteins_all.tsv` — core genes flagged by either tool in any sample
+- `core_membrane_proteins_consensus.tsv` — core genes flagged by **both** tools in **every** sample
+
 ## Data
 
 Place genome assemblies (`.fna` files) in `data/00-reads/`. Current samples include:
@@ -56,6 +66,8 @@ cd bioinformatics-capstone-sumner
 | `ggcaller` | 1.5.0 | Graph-based gene calling and pan-genome analysis | `ggcaller_env` |
 | `panaroo` | 1.6.0 | Error-correcting graph-based pangenome pipeline | `panaroo_env` |
 | `roary` | 3.13.0 | Rapid core genome alignment and pangenome clustering | `roary_env` |
+| `phobius` | 1.01 | Transmembrane topology and signal peptide prediction | Docker |
+| `psortb` | latest | Subcellular localization prediction (gram-negative) | Docker |
 
 ## Project Structure
 
@@ -73,11 +85,16 @@ cd bioinformatics-capstone-sumner
 │   ├── panaroo-results/           # Panaroo pan-genome output
 │   ├── ppanggolin-results/        # PPanGGOLiN pan-genome output
 │   ├── quast-results/             # QUAST reports
-│   └── roary-results/             # Roary pan-genome output
+│   ├── roary-results/             # Roary pan-genome output
+│   ├── phobius-results/           # Phobius per-sample predictions
+│   ├── psortb-results/            # PSORTb per-sample predictions
+│   └── membrane-protein-results/  # Cross-referenced core membrane proteins
 ├── scripts/
 │   ├── 00-evaluation-of-data.sh   # BUSCO + QUAST
 │   ├── 01-genome-annotation.sh    # Bakta annotation
-│   └── 02-pan-genome-analysis.sh  # Pan-genome comparison
+│   ├── 02-pan-genome-analysis.sh  # Pan-genome comparison
+│   ├── 03-membrane-protein-analysis.sh  # Phobius + PSORTb membrane prediction
+│   └── parse_membrane_proteins.py       # Cross-reference & output script
 ├── gen_envs.sh                    # Create conda environments
 ├── run_pipeline.sh                # Main entry point
 └── vars.sh                        # Environment variables
